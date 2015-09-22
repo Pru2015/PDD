@@ -1,0 +1,59 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- style d'affichage des textes dans le widget  -->
+    
+<style name="textstyle">
+    <!-- identifiant du texte a affiche -->
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/primary_text_dark_nodisable</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- style pour l'affichage de contenaire avec bordure -->
+    
+<style name="layoutstyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>	
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+ <!-- Menus Layout theme. -->
+    <style name="StyleMenusLayouts">
+		<item name="android:padding">10sp</item>
+		<item name="android:layout_margin">20sp</item>
+		<item name="android:background">@drawable/menus_shape</item>
+	</style>
+	<!-- Menus Layout theme. -->
+    <style name="StyleMenusLayouts12">
+		<item name="android:padding">1sp</item>
+		<item name="android:layout_margin">0sp</item>
+		<item name="android:background">@drawable/menus_shape</item>
+	</style>
+	<!-- Menus Layout theme. -->
+    <style name="StyleMenusLayouts13">
+		<item name="android:padding">1sp</item>
+		<item name="android:layout_margin">0sp</item>
+		<item name="android:background">@drawable/menus_shape2</item>
+	</style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#996533</color>
+	<color name="gray">#eaeaea</color>
+	<color name="some_color">#706A8C</color>
+	<color name="fake_black">#2E2E2E</color>
+	<color name="bg_color">#7ed37e</color>
+	<color name="inner_bg_color">#996533</color>
+	<color name="inner_hint_color">#d5a87c</color>
+	<color name="job_color">#f9e5bd</color>
+	<color name="blue1">#5ae9e7</color>
+	<color name="verse_color">#ff9a09</color>
+	<color name="verse_color1">#0bf8fb</color>
+	<color name="verse_color2">#fbf208</color>
+</resources>

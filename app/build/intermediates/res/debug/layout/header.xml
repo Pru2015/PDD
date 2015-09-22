@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/header"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent" >
+</LinearLayout>
+<!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/layout/header.xml -->

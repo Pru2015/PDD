@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_color">#7ed37e</color>
+    <color name="blue">#996533</color>
+    <color name="blue1">#5ae9e7</color>
+    <color name="fake_black">#2E2E2E</color>
+    <color name="gray">#eaeaea</color>
+    <color name="inner_bg_color">#996533</color>
+    <color name="inner_hint_color">#d5a87c</color>
+    <color name="job_color">#f9e5bd</color>
+    <color name="some_color">#706A8C</color>
+    <color name="verse_color">#ff9a09</color>
+    <color name="verse_color1">#0bf8fb</color>
+    <color name="verse_color2">#fbf208</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name"> Ma fiche de Priere </string>
+    <string name="exo_du_jour">Excercice du jour</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imageview1">logo</string>
+    <string name="jour_courrant">curent_day</string>
+    <string name="lecture_">"Lecture "</string>
+    <string name="next">next button</string>
+    <string name="next_day">Next month</string>
+    <string name="previous">previous button</string>
+    <string name="previous_day">Previous month</string>
+    <string name="verse_biblique">Verset biblique</string>
+    <!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="StyleMenusLayouts">
+		<item name="android:padding">10sp</item>
+		<item name="android:layout_margin">20sp</item>
+		<item name="android:background">@drawable/menus_shape</item>
+	</style>
+    <style name="StyleMenusLayouts12">
+		<item name="android:padding">1sp</item>
+		<item name="android:layout_margin">0sp</item>
+		<item name="android:background">@drawable/menus_shape</item>
+	</style>
+    <style name="StyleMenusLayouts13">
+		<item name="android:padding">1sp</item>
+		<item name="android:layout_margin">0sp</item>
+		<item name="android:background">@drawable/menus_shape2</item>
+	</style>
+    <style name="layoutstyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>	
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="textstyle">
+    <!-- identifiant du texte a affiche -->
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/primary_text_dark_nodisable</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

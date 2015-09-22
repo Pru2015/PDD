@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrepeat"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imageview1"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/excercice_du_jour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/exo_du_jour"
+            android:textColor="@color/inner_bg_color"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/previous"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/jour_courrant"
+            android:src="@drawable/previous" />
+
+        <LinearLayout
+            style="@style/StyleMenusLayouts12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/jour_courrant"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="0.02">
+
+        <TextView
+            android:id="@+id/verse_biblique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/verse_biblique"
+            android:textColor="@color/inner_bg_color"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ViewStub
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewStub"
+        android:layout_gravity="right" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        style="@style/StyleMenusLayouts13"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.09" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/verse_biblique1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center_vertical"
+                android:text="@string/verse_biblique"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="3sp"
+        android:layout_weight="0.04"
+        android:gravity="end" >
+
+        <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/analogClock" />
+
+        <TextView
+            android:id="@+id/lecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lecture_"
+            android:textColor="@color/fake_black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ZoomControls
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zoomControls"
+        android:layout_gravity="right" />
+
+</LinearLayout><!-- From: file:/home/yonga/AndroidStudioProjects/Fiche_de_priere1/app/src/main/res/layout/ma_fiche_de_priere_layou.xml -->
